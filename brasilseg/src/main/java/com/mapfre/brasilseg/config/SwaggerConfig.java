@@ -24,6 +24,7 @@ public class SwaggerConfig {
 	
 	//Classe docket tivemos que criar com a@bean devido ser uma classe externa onde colocamos aquelas 2 dependencias do swagger
 	// Url do swagger http://localhost:8099/swagger-ui.html
+	// Subi para o heroku https://proj-assis-cancel-tarcisio.herokuapp.com/swagger-ui.html
 
 	@Bean
 	public Docket BrasilSeg() {

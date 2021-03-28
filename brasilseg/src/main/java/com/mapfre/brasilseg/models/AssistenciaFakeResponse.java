@@ -21,7 +21,7 @@ public class AssistenciaFakeResponse {
 	
 	public void setDados(String protocoloBrasilSeg) {	
 		String statuSolicitação;	
-		if(getDados().getProtocoloBrasilSeg() != null) {
+		if(protocoloBrasilSeg != null) {
 			statuSolicitação = "RECEBIDO";
 		}else {
 			statuSolicitação = "NAO RECEBIDO";
