@@ -5,8 +5,7 @@ public class TResponseAutoServicoPutTeste {
 	TResponseAutoServicoTeste response = new TResponseAutoServicoTeste();
 	private String total_items = "1";
 	CancelarAssistencia data = new CancelarAssistencia();
-	
-	
+
 	@SuppressWarnings("null")
 	public void setResponseCode(Long Code) {	
 		
